@@ -1,6 +1,6 @@
 # guessinggame.ig
 
-Number of lines in guessinggame.ig is 28
+Number of lines in guessinggame.ig is 26
 
 Time and date to create guessinggame.ig is 3rd nov 13:07:10
 
