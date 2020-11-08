@@ -1,29 +1,7 @@
-# the-unix-workbench
-  
-#!/usr/bin/env bash
+# guessinggame.sh
 
-function guess_file_count {
+Number of lines in guessinggame.sh is 26
 
-    correct_guess=0
-    while [[ $correct_guess -eq 0 ]]
-    do
-        echo "Enter your guess for number of files in current directory: "
-        read guess
-        if [[ $guess =~ ^\s*$ || $guess =~ [^0-9]+ ]]
-        then
-            echo "Your guess should be a number"
-        elif [[ $guess -gt $1 ]]
-        then
-            echo "Your guess is too high"
-        elif [[ $guess -lt $1 ]]
-        then
-            echo "Your guess is too low"
-        else
-            echo "Congrats!!! You guessed correctly."
-            let correct_guess=1
-        fi
-    done
-}
+Time and date to create guessinggame.sh is 8 nov 13:07:10
 
-file_count=$(ls -1A | wc -l)
-guess_file_count file_count
+Can you guess the number of file directories in this game?
